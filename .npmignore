@@ -1,0 +1,42 @@
+# Source files
+src/
+examples/
+__tests__/
+*.test.ts
+*.spec.ts
+
+# Configuration files
+.eslintrc.js
+jest.config.js
+rollup.config.js
+tsconfig.json
+
+# Development files
+.env*
+.gitignore
+.npmignore
+
+# Documentation (keep README.md)
+CONTRIBUTING.md
+CHANGELOG.md
+
+# IDE files
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Cache
+.cache/
+.rpt2_cache/
+.rts2_cache_*/
+
+# OS files
+.DS_Store
+Thumbs.db

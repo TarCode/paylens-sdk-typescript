@@ -1,0 +1,60 @@
+{
+    "name": "@paylens/sdk",
+    "version": "0.1.0",
+    "description": "A unified TypeScript SDK for South African payment gateways",
+    "main": "dist/index.js",
+    "module": "dist/index.esm.js",
+    "types": "dist/index.d.ts",
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "rollup -c",
+        "dev": "rollup -c -w",
+        "test": "jest",
+        "test:watch": "jest --watch",
+        "lint": "eslint src --ext .ts",
+        "lint:fix": "eslint src --ext .ts --fix",
+        "type-check": "tsc --noEmit",
+        "prepare": "npm run build",
+        "prepublishOnly": "npm run test && npm run lint && npm run build"
+    },
+    "keywords": [
+        "payment",
+        "gateway",
+        "south-africa",
+        "peach-payments",
+        "typescript",
+        "sdk"
+    ],
+    "author": "PayLens",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/paylens/sdk-typescript.git"
+    },
+    "bugs": {
+        "url": "https://github.com/paylens/sdk-typescript/issues"
+    },
+    "homepage": "https://github.com/paylens/sdk-typescript#readme",
+    "devDependencies": {
+        "@types/jest": "^29.5.5",
+        "@types/node": "^20.6.0",
+        "@typescript-eslint/eslint-plugin": "^6.7.0",
+        "@typescript-eslint/parser": "^6.7.0",
+        "eslint": "^8.49.0",
+        "jest": "^29.7.0",
+        "rollup": "^3.29.2",
+        "rollup-plugin-typescript2": "^0.35.0",
+        "ts-jest": "^29.1.1",
+        "typescript": "^5.2.2"
+    },
+    "dependencies": {
+        "axios": "^1.5.0",
+        "zod": "^3.22.2"
+    },
+    "engines": {
+        "node": ">=16.0.0"
+    }
+}

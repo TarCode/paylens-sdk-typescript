@@ -274,9 +274,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Support
 
-- 📧 Email: support@paylens.co.za
-- 📚 Documentation: https://docs.paylens.co.za
-- 🐛 Issues: https://github.com/paylens/sdk-typescript/issues
+- 📧 Email: tarcode33@gmail.com
+- 📚 Documentation: coming soon
 
 ## Changelog
 

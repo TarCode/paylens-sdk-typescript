@@ -19,13 +19,6 @@ A unified TypeScript SDK for integrating multiple South African payment gateways
 - 🔜 **Ozow** (Coming Soon)
 - 🔜 **Yoco** (Coming Soon)
 
-## Installation
-
-```bash
-npm install @paylens/sdk
-# or
-yarn add @paylens/sdk
-```
 
 ## Quick Start
 

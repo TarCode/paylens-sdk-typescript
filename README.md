@@ -257,9 +257,6 @@ Check out the [examples directory](./examples) for more detailed usage examples:
 - [ ] Subscription/recurring payments
 - [ ] Enhanced fraud detection
 
-## Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
 ## License
 

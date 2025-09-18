@@ -29,13 +29,3 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Electronic Funds Transfer (EFT)
 - Mobile Wallets
 
-## [0.1.0] - 2024-01-XX
-
-### Added
-- Initial release of PayLens TypeScript SDK
-- Peach Payments integration
-- Basic payment processing functionality
-- Refund processing
-- Payment status checking
-- TypeScript definitions
-- Documentation and examples
